@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN</title></head>
+<style>
+    form {
+        text-align: center;
+    }
+
+    h1, h4 {
+        text-align: center;
+        background-color: deepskyblue;
+    }
+
+    input {
+        text-align: center;
+    }
+
+    table {
+        border: 1px solid black;
+        border-spacing: 5px;
+    }
+
+    input {
+        width: 300px;
+        height: 30px;
+        padding: 15px;
+    }
+
+</style>
+
+<body>
+<center>
+    <div class="logo">
+        <a href="" class="navbar-brand"><img src="https://kvch.in/assets/img/logo.png" alt="Logo"/></a>
+    </div>
+</center>
+
+
+<h1>LOGIN</h1>
+<h4>(For Students)</h4>
+<form style="background-color:cornsilk;" action="/login" method="get">
+    <table style="width:100%">
+        <tr>
+            <td>
+                Name :    <input type="text" placeholder="ENTER USERNAME" name="name" required><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Password :   <input type="password" placeholder="ENTER PASSWORD" name="password" required><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/trainer">trainer login</a> <a href="/admin">Admin login</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" value="LOG IN"> <br><br></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/register">Don't have a account? Register!! </a>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

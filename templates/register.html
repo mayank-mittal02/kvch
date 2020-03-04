@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body bgcolor="#f0ffff">
+<center>
+    <div class="logo">
+        <a href="" class="navbar-brand"><img src="https://kvch.in/assets/img/logo.png" alt="Logo"/></a>
+    </div>
+</center>
+<form name="sentMessage1" class="well form-horizontal" method="get" action="/register1"
+      onsubmit="checkform5(this);this.page_name.value=document.title;" style="background-color: rgba(255,255,255,.15);"
+      id="contact_form">
+    <fieldset>
+        <center>
+            <h1 style="color: #416da5">REGISTER HERE</h1>
+            <input type="hidden" name="page_name" value="">
+            <!-- Form Name -->
+            <!-- Text input-->
+            <div class="form-group">
+                <div class="inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon" style="border: 1px solid #9aa9c3;"><i
+                                class="fa fa-user"></i></span>
+                        <input style="border:1px solid palegoldenrod;" id="qname" name="qname" placeholder="Name"
+                               class="form-control1" type="text" required=""><br><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon" style="border: 1px solid #9aa9c3;"><i
+                                class="fa fa-user"></i></span>
+                        <input style="border:1px solid palegoldenrod;" id="qenrol" name="qenrol" placeholder="Enrollment number"
+                               class="form-control1" type="text" required=""><br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon" style="border: 1px solid #9aa9c3;"><i
+                                class="fa fa-user"></i></span>
+                        <input style="border:1px solid palegoldenrod;" id="qpass" name="qpass" placeholder="password"
+                               class="form-control1" type="text" required=""><br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon" style="border: 1px solid palegoldenrod;"><i
+                                class="fa fa-envelope-o"></i></span>
+                        <input style="border:1px solid palegoldenrod;" name="qemail" placeholder="E-Mail Address"
+                               class="form-control1" type="email" required=""><br><br>
+                    </div>
+                </div>
+            </div>
+            <!-- Text input-->
+            <!-- Text input-->
+
+
+            <div class="form-group">
+                <div class="inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon" style="border: 1px solid #9aa9c3;"><i
+                                class="fa fa-phone"></i></span>
+                        <input style="border:1px solid palegoldenrod;" onkeypress="return isNumberKey(event)"
+                               name="qphone" placeholder="Number" class="form-control1" type="text"
+                               maxlength="10" required=""><br><br>
+                    </div>
+                </div>
+            </div>
+<div class="form-group">
+                <div class="inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon" style="border: 1px solid #9aa9c3;"><i
+                                class="fa fa-user"></i></span>
+                        <input style="border:1px solid palegoldenrod;" id="qtech" name="qtech" placeholder="technology"
+                               class="form-control1" type="text" required=""><br><br>
+                    </div>
+                </div>
+            </div>
+
+             <div class="form-group">
+                <div class="inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon" style="border: 1px solid #9aa9c3;"><i
+                                class="fa fa-user"></i></span>
+                        <input style="border:1px solid palegoldenrod;" id="qstart" name="qstart" placeholder="dd-mm-yy"
+                               class="form-control1" type="text" required=""><br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon" style="border: 1px solid #9aa9c3;"><i
+                                class="fa fa-user"></i></span>
+                        <input style="border:1px solid palegoldenrod;" id="qbatch" name="qbatch" placeholder="batchid"
+                               class="form-control1" type="text" required=""><br><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label"></label>
+                <div class="col-sm-4">
+                    <!--  <input type="submit" name="btnSendQuery" class="btn btn-info" onclick="validateForm3();">-->
+                    <button type="submit" name="btnSendQuery" id="submitSub" class="btn btn-info"
+                            onclick="validateForm3();">
+                        <span id="sub">Submit</span>
+                    </button>
+
+                </div>
+            </div>
+        </center>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </fieldset>
+
+</form>
+</body>
+</html>
